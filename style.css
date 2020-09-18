@@ -1,80 +1,67 @@
 body {
    background: rgb(43, 42, 42);
-  
+   box-sizing: border-box;
 }
 table {
-    width: 740px;
-    font-family: sans-serif;
-    font-size: 14px;
+    width: 50%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: left;
     border-collapse: separate;
     border-spacing: 0px;
-    background: rgb(73, 70, 70);
-    color: white;
-    border: 1px solid grey;
-    border-radius: 5px;
-    position: relative;
-    margin: 20px;   
-}
-tr td {
-    border-top: 1px solid grey;
-    padding: 20px; 
-    
-}
-tr th {
-    box-sizing: border-box;
-    padding: 20px;
-       
-}
-.color-grey {
+    background:  rgb(43, 42, 42);
     color: grey;
-}
-.triangle {
-    font-size: 14px;
-}
-tr td:last-of-type {
-    
-    text-align: right;
-}
-tr th:last-of-type {
-    
-    text-align: right;
-}
-.point input {
-    position: relative;
-    width: 100px;
-    display: inline-block;
-    height: 10px;
-    background: rgb(80, 78, 78);  
-    background-image: url(img/lupa.png);
-    background-position: 3px 3px ;
-    background-repeat: no-repeat;
-    border: none;
-    outline: none;
+    border: 1px solid rgb(163, 157, 157);
     border-radius: 5px;
-    padding: 10px 0px 10px 30px;
+    margin: 20px;
+}
+td, th {
+    padding: 5px;
+}
+td {
+    width: 30%;
+    border-top: 1px solid grey;
+}
+th, td:first-child {
+    color: white;
+}
+td:last-child, th:last-child {
+    text-align: right;
+}
+#table2 td:last-child, #table3 td:last-child{
+    color: white;
+}
+.check {
+    content: url(img/picture1.png);
+}
+.search input {
+    width: 150px;
+    height: 30px;
+    background:rgb(79, 78, 78);
+    position: relative;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding: 0px 30px;
+    background-image: url(img/lupa.png);
+    color: grey;
+    background-repeat: no-repeat;
+    background-position: 10px  ;
 }
 .picture1 {
-    position: relative;
-    width: 20px;
-    display: inline-block;
-    height: 15px;
-    background-image: url(img/picture1.png);
-    background-position: 4px 4px;
-    background-repeat: no-repeat;
-    border: none;
-    outline: none;
+    content: url(img/favicon.ico);
 }
-.picture3 {
-    position: relative;
-    width: 20px;
-    display: inline-block ;
-    height: 20px;
-    background:  rgb(73, 70, 70);
-    background-image: url(img/picture3.png);
-    background-position: 4px 4px;
-    background-repeat: no-repeat;
-    border: none;
-    outline: none;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 

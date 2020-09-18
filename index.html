@@ -3,91 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css" type="text/css">
+    
     <title>HW-CSS#3</title>
 </head>
 <body>
     <main>
     <div>
-        <table>
+        <table id="table1">
             <tr>
-                <th>Name &#8194;<span class="triangle">&#9660;</span></th>
+                <th>Name&#8194;&#9660;</th>
                 <th>Date</th>
                 <th></th>
-            </tr>
-            <tr>
-                <td >File.pdf</td>
-                <td class="color-grey">3 mins ago</td>
-                <td ><span class="color-grey">&#8226;&#8226;&#8226;</span></td>
-            </tr>
-            <tr>
-                <td >File.pdf</td>
-                <td class="color-grey">Yesterday</td>
-                <td ><span class="color-grey">&#8226;&#8226;&#8226;</span></td>
             </tr>
             <tr>
                 <td>File.pdf</td>
-                <td class="color-grey">June 1st, 2019</td>
-                <td><span class="color-grey">&#8226;&#8226;&#8226;</span></td>
+                <td>3 mins ago</td>
+                <td><span>&#8226;&#8226;&#8226;</span></td>
+            </tr>
+            <tr>
+                <td>File.pdf</td>
+                <td>Yesterday</td>
+                <td><span>&#8226;&#8226;&#8226;</span></td>
+            </tr>
+            <tr>
+                <td>File.pdf</td>
+                <td>June 1st, 2019</td>
+                <td><span>&#8226;&#8226;&#8226;</span></td>
             </tr>
         </table>
     </div>
     <div>
-        <table>
+        <table id="table2">
             <tr>
-                <th><span class="picture1"></span> Name &#8194;<span class="triangle">&#9660;</span></th>
+                <th><span class="check"></span> Name&#8194;&#9660;</th>
                 <th>Date</th>
                 <th></th>
             </tr>
             <tr>
                 <td>
-                    <input type="checkbox" name="file" value="file1" id="file1"> 
-                    <label for="file1">File.pdf</label>
+                    <input type="checkbox" name="File" id="File">
+                    <label for="File"> File.pdf</label>
+                    
                 </td>
-                <td class="color-grey">3 mins ago</td>
-                <td ><span >&#8226;&#8226;&#8226;</span></td>
+                <td>3 mins ago</td>
+                <td><span>&#8226;&#8226;&#8226;</span></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="File2" id="File2" checked>
+                    <label for="File2"> File.pdf</label>
+                </td>
+                <td>Yesterday</td>
+                <td><span>&#8226;&#8226;&#8226;</span></td>
             </tr>
             <tr>
                 <td>
-                    <input type="checkbox" name="file" value="file2" id="file2" checked> 
-                    <label for="file1">File.pdf</label>
+                    <input type="checkbox" name="File3" id="File3">
+                    <label for="File3"> File.pdf</label>
                 </td>
-                <td class="color-grey">Yesterday</td>
-                <td ><span >&#8226;&#8226;&#8226;</span></td>
-            </tr>
-            <tr>
-                <td>
-                    <input type="checkbox" name="file" value="file3" id="file3" > 
-                    <label for="file1">File.pdf</label>
-                </td>
-                <td class="color-grey">June 1st, 2019</td>
-                <td ><span >&#8226;&#8226;&#8226;</span></td>
+                <td>June 1st, 2019</td>
+                <td><span>&#8226;&#8226;&#8226;</span></td>
             </tr>
         </table>
     </div>
     <div>
-        <table>
+        <table id="table3">
             <tr>
-                <th>&#8194;Name &#8194;<span class="triangle">&#9660;</span></th>
+                <th>Name&#8194;&#9660;</th>
                 <th>Date</th>
-                <th><form class="point" action="search">
+                <th>
+                    <form action="/serch/" class="search">
                     <input type="search" name="text" placeholder="Search">
                     </form>
                 </th>
             </tr>
             <tr>
-                <td><span class="picture3"></span> File.pdf</td>
-                <td class="color-grey">3 mins ago</td>
-                <td><span id="retreat">&#8226;&#8226;&#8226;</span></td>
+                <td> <span class="picture1"></span> File.pdf</td>
+                <td>3 mins ago</td>
+                <td>&#8226;&#8226;&#8226;</td>
             </tr>
             <tr>
-                <td><span class="picture3"></span> File.pdf</td>
-                <td class="color-grey">Yesterday</td>
-                <td ><span >&#8226;&#8226;&#8226;</span></td>
+                <td> <span class="picture1"></span> File.pdf</td>
+                <td>Yesterday</td>
+                <td><span>&#8226;&#8226;&#8226;</span></td>
             </tr>
             <tr>
-                <td ><span class="picture3"></span> File.pdf</td>
-                <td class="color-grey">June 1st, 2019</td>
-                <td ><span >&#8226;&#8226;&#8226;</span></td>
+                <td> <span class="picture1"></span> File.pdf</td>
+                <td>June 1st, 2019</td>
+                <td><span>&#8226;&#8226;&#8226;</span></td>
             </tr>
         </table>
     </div>
